@@ -1,0 +1,20 @@
+{
+  "id": "TabooLib",
+  "color": "216,72,72",
+  "actions": {
+    "if_else": {
+      "name": "If \u0026 Else",
+      "type": "PUBLIC_ACTION",
+      "parser": [
+        "If %boolean% then %any% else %any%"
+      ],
+      "information": [
+        "基础条件判断语句"
+      ],
+      "examples": [
+        "if check permission admin then tell \"permission passed\" else \"permission denied\""
+      ],
+      "version": "5.5"
+    }
+  }
+}
